@@ -1,0 +1,6 @@
+operation,opcode,tested,verification_method,input_A,input_B,expected_output_Y4_to_Y0,observed_output_Y4_to_Y0,overall_result,evidence_file
+ADD,000,Yes,ngspice DC operating-point node voltage inspection,00101,00011,01000,01000,PASS,Raw_Logs/ADD_ngspice_output.txt
+SUB,001,Yes,ngspice DC operating-point node voltage inspection,00101,00011,00010,00010,PASS,Raw_Logs/SUB_ngspice_output.txt
+AND,010,Yes,ngspice DC operating-point node voltage inspection,00101,00011,00001,00001,PASS,Raw_Logs/AND_ngspice_output.txt
+OR,011,Yes,ngspice DC operating-point node voltage inspection,00101,00011,00111,00111,PASS,Raw_Logs/OR_ngspice_output.txt
+XOR,100,Yes,ngspice DC operating-point node voltage inspection,00101,00011,00110,00110,PASS,Raw_Logs/XOR_ngspice_output.txt

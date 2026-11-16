@@ -1,0 +1,6 @@
+test_id,operation,opcode,A_binary,B_binary,other_inputs,expected_output_Y4_to_Y0,measured_output_voltages_V,interpreted_output_Y4_to_Y0,result,raw_log
+T001,ADD,000,00101,00011,,01000,Y4=0.041739;Y3=5;Y2=0.041739;Y1=0.041739;Y0=0.041739,01000,PASS,Raw_Logs/ADD_ngspice_output.txt
+T002,SUB,001,00101,00011,,00010,Y4=0.041739;Y3=0.041739;Y2=0.041739;Y1=5;Y0=0.041739,00010,PASS,Raw_Logs/SUB_ngspice_output.txt
+T003,AND,010,00101,00011,,00001,Y4=0.041739;Y3=0.041739;Y2=0.041739;Y1=0.041739;Y0=5,00001,PASS,Raw_Logs/AND_ngspice_output.txt
+T004,OR,011,00101,00011,,00111,Y4=0.041739;Y3=0.041739;Y2=5;Y1=5;Y0=5,00111,PASS,Raw_Logs/OR_ngspice_output.txt
+T005,XOR,100,00101,00011,,00110,Y4=0.041739;Y3=0.041739;Y2=5;Y1=5;Y0=0.041739,00110,PASS,Raw_Logs/XOR_ngspice_output.txt
